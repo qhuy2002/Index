@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HJ</title>
+    <style>
+        ul{
+            width: 600px;
+            height: 400px;
+            position: relative;
+        }
+        ul li{
+            width: inherit;
+            height: 100px;
+            background-color: aqua;
+            list-style: none;
+            /* căn chỉnh và bỏ dấu chấm */
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            /* hiệu ứng hover */
+            
+        }
+        
+        ul li:hover{
+            background-color: #666;
+        }
+        ul li:first-child{
+            background-color: blue;
+            color: white;
+        }
+        section{
+            position: relative;
+            left: 400px;
+            width: 500px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>News</li>
+        <li>Contact</li>
+        <li>About</li>
+    </ul>
+    <section>
+        Lý lịch Twitter là mạng xã hội phổ biến thứ 2 thế giới sau Facebook với 310 triều người dùng hoạt động mỗi tháng . Kể từ khi sinh ra mắt dưới dạng tiểu blog vào năm 2006 , nó cũng đã trờ nên rất phổ biến với các daonh nghiệp có sản phẩm và dịch vụ để quảng bá.
+Công ty ở San Fansisco sử dụng gần 4000 người và tạo ra daonh thu 436 triệu đôla trong quý đầu tiên của năm 2015 nhưng chưa bao giờ mang lại lợi nhuận hầu như tất cả người dùng của họ đều nhận được dịch vụ miễn phí và sức mạnh máy tính cũng như cơ sở hạ tầng cần thiết để xử lý việc đó nhiều người dùng không hề rẻ!
+Năm ngoái ,họ đã thông báo rằng IBM sẽ chở thành đối tác đầu tiên của họ trong Chương trình Đối tác Twitter, mang đến cho các doanh nghiệp khác cơ hội hợp tác với cả Twitter và IBM để thu được giá trị từ dữ liệu và phân tích
+DỮ LIỆU LỚN GIÚP GIẢI QUYẾT ĐƯỢC VẤN ĐỀ GÌ
+Ban quản lý của Twitter biết rõ ràng mạng của họ cần chiếm thị phần lớn hơn 0.84% mà họ đang nắm giữ trên mạng trực tuyến trên toàn cầu thị trường quảng cáo nếu công ty muốn có lợi nhuận . Khoảng 88% doanh thu của họ đến từ các bài đăng được quảng cáo , là những thông điệp mà các công ty trả tiền để xuất hiện trong nguồn cấp dữ liệu Twitter của những người dùng có khả năng quan tâm.
+Điều này phải trả lương cho hàng nghìn nhân viên của họ , cũng như bảo trì và bảo dưỡng mạng máy tính khổng lồ cần thiết để duy trì hoạt động của dịch vụ mà không tốn chi phí cho người dùng cuối.
+Twitter biết rằng họ cần tìm những cách khác để kiếm tiền từ nội dung mà người dùng của họ tạo ra nếu họ muốn tiếp tục phát triển và cải thiện cơ sở hạ tầng của mình. Một phần trong chiến lược của họ để thực hiện điều này liên quan đển việc cung cấp lượng dữ liệu khổng lồ mà họ tạo ra mỗi giây trong ngày cho các đối tác có khả năng phân tích cao, chẳng hạn như IBM . Sau đó, họ có thể bán dịch vụ phân tích của mình cho các doanh nghiệp nhỏ hơn khác ,những doanh nghiệp này có thể thu được giá trị riêng từ dịch vụ đó.
+Có một lượng giá trị to lớn trong dữ liệu được phát trên Twitter, hầu hết trong số đó ,so với dữ liệu được chia sẻ trên mạng xã hội đối thủ Facebook, được công khai bởi những người chia sẻ nó và do đó, mọi người đều có thể phân tích.
+Nó có thể cung cấp thông tin chi tiết về cách mọi người kết nối với nhau , quan điểm của họ về các vấn đề chính trị , họ mua gì , đi ăn ở đâu và bất kỳ khía cạnh nào khác trong cuộc sống của họ - một mô phỏng thông tin vàng cho các doanh nghiệp trung bình không có khả năng phân tích để tận dụng hiểu quả tốt nhất. Bất kỳ ai cũng có thể truy cập Twitter và xem mọi người đang nói về điều gì , nhưng việc biến nó thành thông tin chi tiết có giá trị có thể hành động là điều khó khăn trừ khi bạn nắm vững các chi tiết kỹ thuật về thu thập và lưu trữ dữ liệu , lập trình thống kê , lập mô hình dự đoán và thuật toán lập trình . Về cơ bản , giá trị được lưu trữ trên mạng xã hội sẽ bị lãng phí khí các công ty không có kỹ năng hoặc cơ sở hạ tầng để tận dụng nó.
+Dữ liệu lớn được sử dụng trong thực tế như thế nào?
+ Tóm lại, IBM tạo ra giá trị từ dữ liệu mà Twitter thu thập khi người dùng của họ tweet - tất cả 6000 tweet được đăng mỗi giây đều có sẵn để IBM phân tích trong thời gian thực thông qua API "firehose" của họ. Sau đó, các doanh nghiệp khác có thể truy cập dữ liệu của Twitter thông qua các công cụ của IBM mà họ có thể sử dụng để rút ra những hiểu biết dựa trên dữ liệu của riêng mình. Hàng nghìn nhân viên chuyên gia được cho là đã được IBM và Twitter đào tạo để làm việc với các doanh nghiệp trên cơ sở tư vấn, giúp họ chuyển dữ liệu Twitter thành hành động. Tính đến thời điểm viết bài, dịch vụ này mới chỉ được cung cấp công khai. Tuy nhiên, trong nửa đầu năm 2015, Twitter đã hợp tác với nhiều doanh nghiệp khác nhau để thử nghiệm công nghệ này. Các đối tác này bao gồm một công ty truyền thông nhằm mục đích giảm tỷ lệ rời bỏ khách hàng bằng cách tìm ra nơi dịch vụ của họ có thể bị ảnh hưởng bởi thời tiết xấu bằng cách theo dõi cuộc trò chuyện trên mạng xã hội và phân phối tài nguyên để giảm thời gian ngừng hoạt động của dịch vụ.
+Một trường hợp sử dụng khác liên quan đến một nhà bán lẻ thực phẩm và đồ uống có thể suy luận rằng mô hình chi tiêu của những khách hàng trung thành nhất của họ bị ảnh hưởng bởi tỷ lệ thay thế nhân viên tại các cửa hàng bán lẻ - thiết lập mối liên hệ chắc chắn giữa doanh thu nhân viên cao và mức độ trung thành của khách hàng thấp. Nói cách khác, những gương mặt thường xuyên, dễ nhận biết phía sau quầy thu tiền đã khuyến khích những khách hàng chi tiêu cao quay lại thường xuyên hơn. 
+Kết quả là gì?
+ Chương trình chỉ mới khởi động tại thời điểm viết bài và do đó không có nhiều dữ liệu về kết quả trong thế giới thực. Tuy nhiên, Twitter nói rằng công ty viễn thông giấu tên mà họ hợp tác trong giai đoạn thử nghiệm đã có thể giảm bớt sự rời bỏ của khách hàng.
+DỮ LIỆU LỚN TRONG THỰC TIỄN
+ Tăng 5% bằng cách sử dụng dữ liệu của họ kết hợp với các công cụ do IBM cung cấp. Các chi tiết kỹ thuật là gì? Twitter là một nguồn dữ liệu khổng lồ. 310 triệu người dùng hoạt động hàng tháng của họ đăng 500 triệu tin nhắn mỗi ngày, với mỗi tin nhắn đó có khả năng cung cấp thông tin chi tiết có giá trị về cuộc sống thực. Twitter và IBM cung cấp các công cụ phân tích của họ thông qua ba dịch vụ: IBM Big Insights dành cho Twitter, Watson Analytics với Twitter (sử dụng hệ thống điện toán nhận thức Watson tiên tiến mà tôi đề cập trong Chương 37) và như một phần của dịch vụ BigInsights Enterprise Hadoop của họ. Bất kỳ thách thức nào phải vượt qua? Cho đến nay, dịch vụ dường như chỉ liên quan đến phân tích văn bản nội dung bằng văn bản được đăng lên Twitter. Ngày càng có nhiều người tiêu dùng tương tác với phương tiện truyền thông xã hội thông qua hình ảnh và video, điều này mang đến một loạt thách thức hoàn toàn mới cho những người khai thác Dữ liệu lớn đang tìm kiếm thông tin chi tiết.
+Các dịch vụ truyền thông xã hội dựa trên hình ảnh như Instagram vẫn còn tụt hậu so với Facebook và Twitter, nhưng đang bắt kịp về lượng dữ liệu phi cấu trúc (ảnh và video) được tải lên mỗi ngày. Các dịch vụ khác đã bắt đầu khai thác dữ liệu này để lấy thông tin. Ví dụ, một dịch vụ cho phép các thương hiệu nhận ra thời điểm hình ảnh sản phẩm của họ được tải lên và đánh giá tâm trạng của những người trong ảnh có sản phẩm bằng cách sử dụng hệ thống nhận dạng khuôn mặt. Những thay đổi sau này đối với Twitter có nghĩa là một lượng lớn dữ liệu trực quan hiện được tải lên mạng, cùng với các tin nhắn văn bản dài 140 từ là nguồn sống chính của công ty, nhưng chưa có nghiên cứu điển hình nào về dữ liệu này được phân tích thông qua Twitter. Quan hệ đối tác giữa IBM và Watson.
+Các điểm học tập chính và bài học rút ra là gì?
+ Phương tiện truyền thông xã hội là một nguồn thông tin chi tiết phong phú về tình cảm và hành vi của người tiêu dùng. Phần lớn dữ liệu đó bị khóa vì số lượng quá lớn của nó, điều này khiến cho việc rút ra những hiểu biết có ý nghĩa trở nên khó khăn - tỷ lệ nhiễu trên tín hiệu được tính theo trọng số đối với nhiễu do lượng lớn tiếng nói chuyện trong nền. Thiết lập quan hệ đối tác cho phép các công ty giàu dữ liệu, chẳng hạn như mạng truyền thông xã hội, làm việc với các công ty có khả năng phân tích nâng cao. Giữa họ, họ có thể tạo ra thứ gì đó có giá trị hơn những gì họ có thể quản lý một mình.
+
+
+ Lý lịch Twitter là mạng xã hội phổ biến thứ 2 thế giới sau Facebook với 310 triều người dùng hoạt động mỗi tháng . Kể từ khi sinh ra mắt dưới dạng tiểu blog vào năm 2006 , nó cũng đã trờ nên rất phổ biến với các daonh nghiệp có sản phẩm và dịch vụ để quảng bá.
+Công ty ở San Fansisco sử dụng gần 4000 người và tạo ra daonh thu 436 triệu đôla trong quý đầu tiên của năm 2015 nhưng chưa bao giờ mang lại lợi nhuận hầu như tất cả người dùng của họ đều nhận được dịch vụ miễn phí và sức mạnh máy tính cũng như cơ sở hạ tầng cần thiết để xử lý việc đó nhiều người dùng không hề rẻ!
+Năm ngoái ,họ đã thông báo rằng IBM sẽ chở thành đối tác đầu tiên của họ trong Chương trình Đối tác Twitter, mang đến cho các doanh nghiệp khác cơ hội hợp tác với cả Twitter và IBM để thu được giá trị từ dữ liệu và phân tích
+DỮ LIỆU LỚN GIÚP GIẢI QUYẾT ĐƯỢC VẤN ĐỀ GÌ
+Ban quản lý của Twitter biết rõ ràng mạng của họ cần chiếm thị phần lớn hơn 0.84% mà họ đang nắm giữ trên mạng trực tuyến trên toàn cầu thị trường quảng cáo nếu công ty muốn có lợi nhuận . Khoảng 88% doanh thu của họ đến từ các bài đăng được quảng cáo , là những thông điệp mà các công ty trả tiền để xuất hiện trong nguồn cấp dữ liệu Twitter của những người dùng có khả năng quan tâm.
+Điều này phải trả lương cho hàng nghìn nhân viên của họ , cũng như bảo trì và bảo dưỡng mạng máy tính khổng lồ cần thiết để duy trì hoạt động của dịch vụ mà không tốn chi phí cho người dùng cuối.
+Twitter biết rằng họ cần tìm những cách khác để kiếm tiền từ nội dung mà người dùng của họ tạo ra nếu họ muốn tiếp tục phát triển và cải thiện cơ sở hạ tầng của mình. Một phần trong chiến lược của họ để thực hiện điều này liên quan đển việc cung cấp lượng dữ liệu khổng lồ mà họ tạo ra mỗi giây trong ngày cho các đối tác có khả năng phân tích cao, chẳng hạn như IBM . Sau đó, họ có thể bán dịch vụ phân tích của mình cho các doanh nghiệp nhỏ hơn khác ,những doanh nghiệp này có thể thu được giá trị riêng từ dịch vụ đó.
+Có một lượng giá trị to lớn trong dữ liệu được phát trên Twitter, hầu hết trong số đó ,so với dữ liệu được chia sẻ trên mạng xã hội đối thủ Facebook, được công khai bởi những người chia sẻ nó và do đó, mọi người đều có thể phân tích.
+Nó có thể cung cấp thông tin chi tiết về cách mọi người kết nối với nhau , quan điểm của họ về các vấn đề chính trị , họ mua gì , đi ăn ở đâu và bất kỳ khía cạnh nào khác trong cuộc sống của họ - một mô phỏng thông tin vàng cho các doanh nghiệp trung bình không có khả năng phân tích để tận dụng hiểu quả tốt nhất. Bất kỳ ai cũng có thể truy cập Twitter và xem mọi người đang nói về điều gì , nhưng việc biến nó thành thông tin chi tiết có giá trị có thể hành động là điều khó khăn trừ khi bạn nắm vững các chi tiết kỹ thuật về thu thập và lưu trữ dữ liệu , lập trình thống kê , lập mô hình dự đoán và thuật toán lập trình . Về cơ bản , giá trị được lưu trữ trên mạng xã hội sẽ bị lãng phí khí các công ty không có kỹ năng hoặc cơ sở hạ tầng để tận dụng nó.
+Dữ liệu lớn được sử dụng trong thực tế như thế nào?
+ Tóm lại, IBM tạo ra gi
+con trai
+Ngọc Kiên
+DỮ LIỆU LỚN TRONG THỰC TIỄN
+ Tăng 5% bằng cách sử dụng dữ liệu của họ kết hợp với các công cụ do IBM cung cấp. Các chi tiết kỹ thuật là gì? Twitter là một nguồn dữ liệu khổng lồ. 310 triệu người dùng hoạt động hàng tháng của họ đăng 500 triệu tin nhắn mỗi ngày, với mỗi tin nhắn đó có khả năng cung cấp thông tin chi tiết có giá trị về cuộc sống thực. Twitter và IBM cung cấp các công cụ phân tích của họ thông qua ba dịch vụ: IBM Big Insights dành cho Twitter, Watson Analytics với Twitter (sử dụng hệ thống điện toán nhận thức Watson tiên tiến mà tôi đề cập trong Chương 37) và như một phần của dịch vụ BigInsights Enterprise Hadoop của họ. Bất kỳ thách thức nào phải vượt qua? Cho đến nay, dịch vụ dường như chỉ liên quan đến phân tích văn bản nội dung bằng văn bản được đăng lên Twitter. Ngày càng có nhiều người tiêu dùng tương tác với phương tiện truyền thông xã hội thông qua hình ảnh và video, điều này mang đến một loạt thách thức hoàn toàn mới cho những người khai thác Dữ liệu lớn đang tìm kiếm thông tin chi tiết.
+Các dịch vụ truyền thông xã hội dựa trên hình ảnh như Instagram vẫn còn tụt hậu so với Facebook và Twitter, nhưng đang bắt kịp về lượng dữ liệu phi cấu trúc (ảnh và video) được tải lên mỗi ngày. Các dịch vụ khác đã bắt đầu khai thác dữ liệu này để lấy thông tin. Ví dụ, một dịch vụ cho phép các thương hiệu nhận ra thời điểm hình ảnh sản phẩm của họ được tải lên và đánh giá tâm trạng của những người trong ảnh có sản phẩm bằng cách sử dụng hệ thống nhận dạng khuôn mặt. Những thay đổi sau này đối với Twitter có nghĩa là một lượng lớn dữ liệu trực quan hiện được tải lên mạng, cùng với các tin nhắn văn bản dài 140 từ là nguồn sống chính của công ty, nhưng chưa có nghiên cứu điển hình nào về dữ liệu này được phân tích thông qua Twitter. Quan hệ đối tác giữa IBM và Watson.
+Các điểm học tập chính và bài học rút ra là gì?
+ Phương tiện truyền thông xã hội là một nguồn thông tin chi tiết phong phú về tình cảm và hành vi của người tiêu dùng. Phần lớn dữ liệu đó bị khóa vì số lượng quá lớn của nó, điều này khiến cho việc rút ra những hiểu biết có ý nghĩa trở nên khó khăn - tỷ lệ nhiễu trên tín hiệu được tính theo trọng số đối với nhiễu do lượng lớn tiếng nói chuyện trong nền. Thiết lập quan hệ đối tác cho phép các công ty giàu dữ liệu, chẳng hạn như mạng truyền thông xã hội, làm việc với các công ty có khả năng phân tích nâng cao. Giữa họ, họ có thể tạo ra thứ gì đó có giá trị hơn những gì họ có thể quản lý một mình.
+
+
+ Lý lịch Twitter là mạng xã hội phổ biến thứ 2 thế giới sau Facebook với 310 triều người dùng hoạt động mỗi tháng . Kể từ khi sinh ra mắt dưới dạng tiểu blog vào năm 2006 , nó cũng đã trờ nên rất phổ biến với các daonh nghiệp có sản phẩm và dịch vụ để quảng bá.
+Công ty ở San Fansisco sử dụng gần 4000 người và tạo ra daonh thu 436 triệu đôla trong quý đầu tiên của năm 2015 nhưng chưa bao giờ mang lại lợi nhuận hầu như tất cả người dùng của họ đều nhận được dịch vụ miễn phí và sức mạnh máy tính cũng như cơ sở hạ tầng cần thiết để xử lý việc đó nhiều người dùng không hề rẻ!
+Năm ngoái ,họ đã thông báo rằng IBM sẽ chở thành đối tác đầu tiên của họ trong Chương trình Đối tác Twitter, mang đến cho các doanh nghiệp khác cơ hội hợp tác với cả Twitter và IBM để thu được giá trị từ dữ liệu và phân tích
+DỮ LIỆU LỚN GIÚP GIẢI QUYẾT ĐƯỢC VẤN ĐỀ GÌ
+Ban quản lý của Twitter biết rõ ràng mạng của họ cần chiếm thị phần lớn hơn 0.84% mà họ đang nắm giữ trên mạng trực tuyến trên toàn cầu thị trường quảng cáo nếu công ty muốn có lợi nhuận . Khoảng 88% doanh thu của họ đến từ các bài đăng được quảng cáo , là những thông điệp mà các công ty trả tiền để xuất hiện trong nguồn cấp dữ liệu Twitter của những người dùng có khả năng quan tâm.
+Điều này phải trả lương cho hàng nghìn nhân viên của họ , cũng như bảo trì và bảo dưỡng mạng máy tính khổng lồ cần thiết để duy trì hoạt động của dịch vụ mà không tốn chi phí cho người dùng cuối.
+Twitter biết rằng họ cần tìm những cách khác để kiếm tiền từ nội dung mà người dùng của họ tạo ra nếu họ muốn tiếp tục phát triển và cải thiện cơ sở hạ tầng của mình. Một phần trong chiến lược của họ để thực hiện điều này liên quan đển việc cung cấp lượng dữ liệu khổng lồ mà họ tạo ra mỗi giây trong ngày cho các đối tác có khả năng phân tích cao, chẳng hạn như IBM . Sau đó, họ có thể bán dịch vụ phân tích của mình cho các doanh nghiệp nhỏ hơn khác ,những doanh nghiệp này có thể thu được giá trị riêng từ dịch vụ đó.
+Có một lượng giá trị to lớn trong dữ liệu được phát trên Twitter, hầu hết trong số đó ,so với dữ liệu được chia sẻ trên mạng xã hội đối thủ Facebook, được công khai bởi những người chia sẻ nó và do đó, mọi người đều có thể phân tích.
+Nó có thể cung cấp thông tin chi tiết về cách mọi người kết nối với nhau , quan điểm của họ về các vấn đề chính trị , họ mua gì , đi ăn ở đâu và bất kỳ khía cạnh nào khác trong cuộc sống của họ - một mô phỏng thông tin vàng cho các doanh nghiệp trung bình không có khả năng phân tích để tận dụng hiểu quả tốt nhất. Bất kỳ ai cũng có thể truy cập Twitter và xem mọi người đang nói về điều gì , nhưng việc biến nó thành thông tin chi tiết có giá trị có thể hành động là điều khó khăn trừ khi bạn nắm vững các chi tiết kỹ thuật về thu thập và lưu trữ dữ liệu , lập trình thống kê , lập mô hình dự đoán và thuật toán lập trình . Về cơ bản , giá trị được lưu trữ trên mạng xã hội sẽ bị lãng phí khí các công ty không có kỹ năng hoặc cơ sở hạ tầng để tận dụng nó.
+Dữ liệu lớn được sử dụng trong thực tế như thế nào?
+ Tóm lại, IBM tạo ra giá trị từ dữ liệu mà Twitter thu thập khi người dùng của họ tweet - tất cả 6000 tweet được đăng mỗi giây đều có sẵn để IBM phân tích trong thời gian thực thông qua API "firehose" của họ. Sau đó, các doanh nghiệp khác có thể truy cập dữ liệu của Twitter thông qua các công cụ của IBM mà họ có thể sử dụng để rút ra những hiểu biết dựa trên dữ liệu của riêng mình. Hàng nghìn nhân viên chuyên gia được cho là đã được IBM và Twitter đào tạo để làm việc với các doanh nghiệp trên cơ sở tư vấn, giúp họ chuyển dữ liệu Twitter thành hành động. Tính đến thời điểm viết bài, dịch vụ này mới chỉ được cung cấp công khai. Tuy nhiên, trong nửa đầu năm 2015, Twitter đã hợp tác với nhiều doanh nghiệp khác nhau để thử nghiệm công nghệ này. Các đối tác này bao gồm một công ty truyền thông nhằm mục đích giảm tỷ lệ rời bỏ khách hàng bằng cách tìm ra nơi dịch vụ của họ có thể bị ảnh hưởng bởi thời tiết xấu bằng cách theo dõi cuộc trò chuyện trên mạng xã hội và phân phối tài nguyên để giảm thời gian ngừng hoạt động của dịch vụ.
+Một trường hợp sử dụng khác liên quan đến một nhà bán lẻ thực phẩm và đồ uống có thể suy luận rằng mô hình chi tiêu của những khách hàng trung thành nhất của họ bị ảnh hưởng bởi tỷ lệ thay thế nhân viên tại các cửa hàng bán lẻ - thiết lập mối liên hệ chắc chắn giữa doanh thu nhân viên cao và mức độ trung thành của khách hàng thấp. Nói cách khác, những gương mặt thường xuyên, dễ nhận biết phía sau quầy thu tiền đã khuyến khích những khách hàng chi tiêu cao quay lại thường xuyên hơn. 
+Kết quả là gì?
+ Chương trình chỉ mới khởi động tại thời điểm viết bài và do đó không có nhiều dữ liệu về kết quả trong thế giới thực. Tuy nhiên, Twitter nói rằng công ty viễn thông giấu tên mà họ hợp tác trong giai đoạn thử nghiệm đã có thể giảm bớt sự rời bỏ của khách hàng.
+DỮ LIỆU LỚN TRONG THỰC TIỄN
+ Tăng 5% bằng cách sử dụng dữ liệu của họ kết hợp với các công cụ do IBM cung cấp. Các chi tiết kỹ thuật là gì? Twitter là một nguồn dữ liệu khổng lồ. 310 triệu người dùng hoạt động hàng tháng của họ đăng 500 triệu tin nhắn mỗi ngày, với mỗi tin nhắn đó có khả năng cung cấp thông tin chi tiết có giá trị về cuộc sống thực. Twitter và IBM cung cấp các công cụ phân tích của họ thông qua ba dịch vụ: IBM Big Insights dành cho Twitter, Watson Analytics với Twitter (sử dụng hệ thống điện toán nhận thức Watson tiên tiến mà tôi đề cập trong Chương 37) và như một phần của dịch vụ BigInsights Enterprise Hadoop của họ. Bất kỳ thách thức nào phải vượt qua? Cho đến nay, dịch vụ dường như chỉ liên quan đến phân tích văn bản nội dung bằng văn bản được đăng lên Twitter. Ngày càng có nhiều người tiêu dùng tương tác với phương tiện truyền thông xã hội thông qua hình ảnh và video, điều này mang đến một loạt thách thức hoàn toàn mới cho những người khai thác Dữ liệu lớn đang tìm kiếm thông tin chi tiết.
+Các dịch vụ truyền thông xã hội dựa trên hình ảnh như Instagram vẫn còn tụt hậu so với Facebook và Twitter, nhưng đang bắt kịp về lượng dữ liệu phi cấu trúc (ảnh và video) được tải lên mỗi ngày. Các dịch vụ khác đã bắt đầu khai thác dữ liệu này để lấy thông tin. Ví dụ, một dịch vụ cho phép các thương hiệu nhận ra thời điểm hình ảnh sản phẩm của họ được tải lên và đánh giá tâm trạng của những người trong ảnh có sản phẩm bằng cách sử dụng hệ thống nhận dạng khuôn mặt. Những thay đổi sau này đối với Twitter có nghĩa là một lượng lớn dữ liệu trực quan hiện được tải lên mạng, cùng với các tin nhắn văn bản dài 140 từ là nguồn sống chính của công ty, nhưng chưa có nghiên cứu điển hình nào về dữ liệu này được phân tích thông qua Twitter. Quan hệ đối tác giữa IBM và Watson.
+Các điểm học tập chính và bài học rút ra là gì?
+ Phương tiện truyền thông xã hội là một nguồn thông tin chi tiết phong phú về tình cảm và hành vi của người tiêu dùng. Phần lớn dữ liệu đó bị khóa vì số lượng quá lớn của nó, điều này khiến cho việc rút ra những hiểu biết có ý nghĩa trở nên khó khăn - tỷ lệ nhiễu trên tín hiệu được tính theo trọng số đối với nhiễu do lượng lớn tiếng nói chuyện trong nền. Thiết lập quan hệ đối tác cho phép các công ty giàu dữ liệu, chẳng hạn như mạng truyền thông xã hội, làm việc với các công ty có khả năng phân tích nâng cao. Giữa họ, họ có thể tạo ra thứ gì đó có giá trị hơn những gì họ có thể quản lý một mình.
+
+    </section>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ví dụ tạo bảng trên trang web</title>
+</head>
+<body>
+  <table style="border: solid 2px dodgerblue; border-collapse: collapse; width: 800px;">
+    <!-- dòng 1 dùng để chứa tiêu đề của các cột-->
+    <tr style="height: 40px;">
+      <!-- cột nhóm học tập -->
+      <th rowspan="2" style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">NHÓM HỌC</th>
+      <!-- cột số thứ tự -->
+      <th rowspan="2" style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">STT</th>
+      <!--cột họ tên -->
+      <th rowspan="2" style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">MÃ SINH VIÊN</th>
+      <th rowspan="2" style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">HỌ</th>
+      <th rowspan="2" style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">TÊN</th>
+      <th rowspan="2" style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">MÃ LỚP</th>
+      <th colspan="3" style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">ĐIỂM HỌC PHẦN</th>
+    </tr>
+    <tr>
+      <th style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">C</th>
+      <th style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">B</th>
+      <th style="border: solid 1px dodgerblue; background-color: cadetblue; color: white;">A</th>
+    </tr>
+    <!-- dòng 2,3,4,5,6 chứa dữ liệu -->
+    <tr>
+      <td rowspan="2" style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">Nhóm 01</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">1</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">2021050312</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Nguyễn Quang</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Huy</td>
+      <td style="border-bottom: solid 1px dodgerblue; border-right: solid 1px dodgerblue;">DCCTCTKH65A</td>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+    </tr>
+    <tr style="background-color: gainsboro;">
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">2</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">2021050312</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Nguyễn Quang</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Huy</td>
+      <td style="border-bottom: solid 1px dodgerblue;border-right: solid 1px dodgerblue;">DCCTCTKH65A</td>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">Nhóm 02</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">3</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">2021050312</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Nguyễn Quang</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Huy</td>
+      <td style="border-bottom: solid 1px dodgerblue;border-right: solid 1px dodgerblue;">DCCTCTKH65A</td>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+    </tr>
+    <tr style="background-color: gainsboro;">
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">4</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">2021050312</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Nguyễn Quang</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Huy</td>
+      <td style="border-bottom: solid 1px dodgerblue;border-right: solid 1px dodgerblue;">DCCTCTKH65A</td>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">Nhóm 03</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">5</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">2021050312</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Nguyễn Quang</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Huy</td>
+      <td style="border-bottom: solid 1px dodgerblue; border-right: solid 1px dodgerblue;">DCCTCTKH65A</td>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+    </tr>
+    <tr style="background-color: gainsboro;">
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">6</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">2021050312</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Nguyễn Quang</td>
+      <td style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue;">Huy</td>
+      <td style="border-bottom: solid 1px dodgerblue; border-right: solid 1px dodgerblue;">DCCTCTKH65A</td>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+      <th style="border-right: solid 1px dodgerblue; border-bottom: solid 1px dodgerblue; text-align: center;">0</th>
+    </tr>
+    <colgroup>
+      <col span="6">
+      <col span="3" style="background-color: azure;">
+    </colgroup>
+  </table>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ví dụ đối tượng JS</title>
+</head>
+<body>
+    <!--Nội dung-->
+    <p id="sinhvien"></p>
+
+    <!--JS-->
+    <script>
+        //--Tạo đối tượng sv_1--//
+        const sv_1 = {
+            msv: 2021050312,
+            name: "Nguyễn Quang Huy",
+            birth: "2002",
+            email: "huy72558@gmail.com",
+
+            //--Phương thức--//
+            hienthi: function(){
+                document.getElementById("sinhvien").innerHTML = "[ " + this.msv + " - " + this.name + " - " 
+                + this.birth + " - " + this.email + "] ";
+            }
+        };
+    </script>
+</body>
+</html>
